@@ -1,4 +1,7 @@
 baseURL = "https://onovytskyi.github.io/"
 languageCode = "en-us"
 title = "Project: Renderman"
-theme = "learn"
+theme = "hugo-theme-learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
