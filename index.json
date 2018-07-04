@@ -4,18 +4,18 @@
 	"title": "General",
 	"tags": [],
 	"description": "",
-	"content": " Part 1 General All general stuff that can be useful even outside rendering.\nStill most of the info have rendering in mind.\n"
+	"content": " Section 1 General All general stuff that can be useful even outside rendering.\nStill most of the info have rendering in mind.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/",
+	"title": "Main",
+	"tags": [],
+	"description": "",
+	"content": " Project: Renderman This site is created to help me categorize and archive useful things while I learn rendering.\nFeel free to use it for your own good.\n"
 },
 {
 	"uri": "https://onovytskyi.github.io/categories/",
 	"title": "Categories",
-	"tags": [],
-	"description": "",
-	"content": ""
-},
-{
-	"uri": "https://onovytskyi.github.io/",
-	"title": "Project: Renderman",
 	"tags": [],
 	"description": "",
 	"content": ""
