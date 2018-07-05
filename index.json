@@ -1,10 +1,73 @@
 [
 {
+	"uri": "https://onovytskyi.github.io/miscellaneous/abbrevations/",
+	"title": "Abbrevations",
+	"tags": [],
+	"description": "",
+	"content": " ROP - Render Operations Pipeline: The render output unit is a hardware component in modern GPUs and one of the final steps in the rendering process.\n  "
+},
+{
 	"uri": "https://onovytskyi.github.io/general/",
 	"title": "General",
 	"tags": [],
 	"description": "",
-	"content": " Section 1 General All general stuff that can be useful even outside rendering.\nStill most of the info have rendering in mind.\n"
+	"content": " Section 1 General Common things that can be usable even outside of the rendering world.\nStill can contain render-specific context.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/general/multithreading/",
+	"title": "Multithreading",
+	"tags": [],
+	"description": "",
+	"content": " Breaking down barriers Author: Matt \u0026ldquo;MJP\u0026rdquo; Pettineo\nThe series going from the very basics of what actually barrier is right to the specifics of how barriers work on modern GPUs.\n If you’ve done any amount of D3D12 or Vulkan programming, then you’ve probably spent a good bit of that time grappling with barriers. They can be pretty tricky to get right: the validation layers seem to be always pointing out new issues whenever you change some rendering code, or when a new version of the validation layer comes in through Windows Update. And on top of that the IHV’s keep telling you that you need to be really careful and how you use barriers if you want GPU performance to meet or exceed what you get from D3D11, which is an additional challenge on top of simply achieving artifact-free results.\n \rPart 1\r\r\rPart 2\r\r\rPart 3\r\r\rPart 4\r\r\rPart 5\r\r\rPart 1\r\r\rPart 2\r\r\rPart 3\r\r\rPart 4\r\r\rPart 5\r\r"
+},
+{
+	"uri": "https://onovytskyi.github.io/math/",
+	"title": "Math",
+	"tags": [],
+	"description": "",
+	"content": " Section 2 Math Math pieces to support your render adventures.\nContains both academic and practical information.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/hardware/",
+	"title": "Hardware",
+	"tags": [],
+	"description": "",
+	"content": " Section 3 Hardware Iron-specific topics about GPU internal workings, CPU-GPU communication, memory, vendor-specific information, etc.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/technics/",
+	"title": "Technics",
+	"tags": [],
+	"description": "",
+	"content": " Section 4 Technics Rendering technics by category.\nEverything from shadows and shading to posteffects.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/effects/",
+	"title": "Effects",
+	"tags": [],
+	"description": "",
+	"content": " Section 5 Effects Mostly shader based things to add some specific effect, for example hidden characters outline or GPU based performance graph.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/architecture/",
+	"title": "Architecture",
+	"tags": [],
+	"description": "",
+	"content": " Section 6 Architecture Rendering engine architecture topics.\nCan be specific to some platform and/or rendering API.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/optimization/",
+	"title": "Optimization",
+	"tags": [],
+	"description": "",
+	"content": " Section 7 Optimization Tips and tricks to optimize your rendering code.\nTutorials and guides on different software to find performance issues.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/miscellaneous/",
+	"title": "Miscellaneous",
+	"tags": [],
+	"description": "",
+	"content": " Section 8 Miscellaneous Definitions, abbrevations, small tips and tricks, etc.\nIn short all this little pieces that is easy to forget and hard to find when needed.\n"
 },
 {
 	"uri": "https://onovytskyi.github.io/",
