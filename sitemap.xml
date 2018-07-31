@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://onovytskyi.github.io/hardware/general/</loc>
+    <lastmod>2018-07-04T21:34:57+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onovytskyi.github.io/hardware/amd/</loc>
+    <lastmod>2018-07-04T21:34:57+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://onovytskyi.github.io/miscellaneous/abbrevations/</loc>
+    <lastmod>2018-07-04T21:34:57+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onovytskyi.github.io/optimization/d3d12/</loc>
     <lastmod>2018-07-04T21:34:57+03:00</lastmod>
   </url>
   
@@ -19,6 +34,16 @@
   
   <url>
     <loc>https://onovytskyi.github.io/math/</loc>
+    <lastmod>2018-07-04T21:34:57+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onovytskyi.github.io/hardware/nvidia/</loc>
+    <lastmod>2018-07-04T21:34:57+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://onovytskyi.github.io/optimization/nvidia/</loc>
     <lastmod>2018-07-04T21:34:57+03:00</lastmod>
   </url>
   

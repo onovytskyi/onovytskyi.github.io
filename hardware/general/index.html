@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Effects :: Project: Renderman</title>
+    <title>General :: Project: Renderman</title>
     
     
     <link href="/css/nucleus.css?1533022328" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/effects/">
+  <body class="" data-url="/hardware/general/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -163,7 +163,7 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/hardware/" title="Hardware" class="dd-item 
-        
+        parent
         
         
         ">
@@ -192,8 +192,8 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/hardware/general/" title="General" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/hardware/general/">
@@ -301,8 +301,8 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/effects/" title="Effects" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/effects/">
@@ -536,6 +536,8 @@ PROJECT: RENDERMAN
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -544,7 +546,13 @@ PROJECT: RENDERMAN
             
           
           
-            <a href='/'>Main</a> > Effects
+            
+            
+          
+          
+            <a href='/'>Main</a> > <a href='/hardware/'>Hardware</a> > General
+          
+         
           
          
           
@@ -552,14 +560,31 @@ PROJECT: RENDERMAN
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#life-of-a-triangle-nvidia-s-logical-pipeline">Life of a triangle - NVIDIA&rsquo;s logical pipeline</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>General</h1>
           
 
         
@@ -567,19 +592,45 @@ PROJECT: RENDERMAN
 
 
 
-<h3 id="section-5">Section 5</h3>
+<h3 id="life-of-a-triangle-nvidia-s-logical-pipeline">Life of a triangle - NVIDIA&rsquo;s logical pipeline</h3>
 
-<h1 id="effects">Effects</h1>
+<p><strong>Author: Christoph Kubisch</strong></p>
 
-<p>Mostly shader based things to add some specific effect, for example hidden characters outline or GPU based performance graph.</p>
+<p>Even though this article is titled with NVIDIA it can be easily put into general category because it touches very little vendor-specific things and give an overwiev about modern GPU pipeline.</p>
+
+<a  href="https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-link"></i>
+    
+  
+  Article
+  
+</a>
+
+
+<a  href="https://web.archive.org/web/https://developer.nvidia.com/content/life-triangle-nvidias-logical-pipeline" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-archive"></i>
+    
+  
+  Article
+  
+</a>
+
+
+<hr />
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
         
         </div> 
         
@@ -664,6 +715,7 @@ PROJECT: RENDERMAN
             
                 
                     
+                    
                 
                 
 
@@ -673,73 +725,6 @@ PROJECT: RENDERMAN
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -787,6 +772,73 @@ PROJECT: RENDERMAN
 
                     
                     
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                         
                     
                     
@@ -868,10 +920,10 @@ PROJECT: RENDERMAN
 
 
         
-            <a class="nav nav-prev" href="/technics/" title="Technics"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/hardware/" title="Hardware"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/architecture/" title="Architecture" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/hardware/amd/" title="AMD" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

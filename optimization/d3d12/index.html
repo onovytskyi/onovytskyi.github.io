@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Effects :: Project: Renderman</title>
+    <title>D3D12 :: Project: Renderman</title>
     
     
     <link href="/css/nucleus.css?1533022328" rel="stylesheet">
@@ -34,7 +34,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/effects/">
+  <body class="" data-url="/optimization/d3d12/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -301,8 +301,8 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/effects/" title="Effects" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/effects/">
@@ -349,7 +349,7 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/optimization/" title="Optimization" class="dd-item 
-        
+        parent
         
         
         ">
@@ -378,8 +378,8 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/optimization/d3d12/" title="D3D12" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/optimization/d3d12/">
@@ -536,6 +536,8 @@ PROJECT: RENDERMAN
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -544,7 +546,13 @@ PROJECT: RENDERMAN
             
           
           
-            <a href='/'>Main</a> > Effects
+            
+            
+          
+          
+            <a href='/'>Main</a> > <a href='/optimization/'>Optimization</a> > D3D12
+          
+         
           
          
           
@@ -552,14 +560,31 @@ PROJECT: RENDERMAN
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#right-on-queue">Right on queue</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>D3D12</h1>
           
 
         
@@ -567,19 +592,45 @@ PROJECT: RENDERMAN
 
 
 
-<h3 id="section-5">Section 5</h3>
+<h3 id="right-on-queue">Right on queue</h3>
 
-<h1 id="effects">Effects</h1>
+<p><strong>Authors: Stephan Hodes, Dan Baker, dave Oldcorn</strong></p>
 
-<p>Mostly shader based things to add some specific effect, for example hidden characters outline or GPU based performance graph.</p>
+<p>GDC2016 talk about D3D12 related performance tips by AMD.</p>
+
+<a  href="http://32ipi028l5q82yhj72224m8j.wpengine.netdna-cdn.com/wp-content/uploads/2016/03/GDC_2016_D3D12_Right_On_Queue_final.pdf" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-file"></i>
+    
+  
+  Presentation
+  
+</a>
+
+
+<a  href="https://web.archive.org/web/http://32ipi028l5q82yhj72224m8j.wpengine.netdna-cdn.com/wp-content/uploads/2016/03/GDC_2016_D3D12_Right_On_Queue_final.pdf" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-archive"></i>
+    
+  
+  Presentation
+  
+</a>
+
+
+<hr />
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
         
         </div> 
         
@@ -746,6 +797,54 @@ PROJECT: RENDERMAN
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -777,53 +876,6 @@ PROJECT: RENDERMAN
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -868,10 +920,10 @@ PROJECT: RENDERMAN
 
 
         
-            <a class="nav nav-prev" href="/technics/" title="Technics"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/optimization/" title="Optimization"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/architecture/" title="Architecture" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/optimization/nvidia/" title="NVIDIA" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

@@ -1,10 +1,31 @@
 [
 {
+	"uri": "https://onovytskyi.github.io/hardware/general/",
+	"title": "General",
+	"tags": [],
+	"description": "",
+	"content": " Life of a triangle - NVIDIA\u0026rsquo;s logical pipeline Author: Christoph Kubisch\nEven though this article is titled with NVIDIA it can be easily put into general category because it touches very little vendor-specific things and give an overwiev about modern GPU pipeline.\n\rArticle\r\r\rArticle\r\r"
+},
+{
+	"uri": "https://onovytskyi.github.io/hardware/amd/",
+	"title": "AMD",
+	"tags": [],
+	"description": "",
+	"content": " AMD Graphics Cores Next (GCN) Architecture Official AMD whitepaper.\n\rPaper\r\r\rPaper\r\rRadeon\u0026rsquo;s next-generation Vega architecture Official AMD whitepaper.\n\rPaper\r\r\rPaper\r\r"
+},
+{
 	"uri": "https://onovytskyi.github.io/miscellaneous/abbrevations/",
 	"title": "Abbrevations",
 	"tags": [],
 	"description": "",
-	"content": " ROP - Render Operations Pipeline: The render output unit is a hardware component in modern GPUs and one of the final steps in the rendering process.\n  "
+	"content": " GPC - Graphics Processing Cluster: GPU block usually with one raster engine and multiple SMs. SM - Streaming Multiprocessor: GPU block that does actual shader work. ROP - Render Operations Pipeline: The render output unit is a hardware component in modern GPUs and one of the final steps in the rendering process.\n  "
+},
+{
+	"uri": "https://onovytskyi.github.io/optimization/d3d12/",
+	"title": "D3D12",
+	"tags": [],
+	"description": "",
+	"content": " Right on queue Authors: Stephan Hodes, Dan Baker, dave Oldcorn\nGDC2016 talk about D3D12 related performance tips by AMD.\n\rPresentation\r\r\rPresentation\r\r"
 },
 {
 	"uri": "https://onovytskyi.github.io/general/",
@@ -26,6 +47,20 @@
 	"tags": [],
 	"description": "",
 	"content": " Section 2 Math Math pieces to support your render adventures.\nContains both academic and practical information.\n"
+},
+{
+	"uri": "https://onovytskyi.github.io/hardware/nvidia/",
+	"title": "NVIDIA",
+	"tags": [],
+	"description": "",
+	"content": " NVIDIA GF100 Official NVIDIA whitepaper about Fermi architecture.\n\rPaper\r\r\rPaper\r\rNVIDIA’s Next Generation CUDA Compute Architecture: Kepler TM GK110 Official NVIDIA whitepaper.\n\rPaper\r\r\rPaper\r\rNVIDIA GeForce GTX 980 Official NVIDIA whitepaper about Maxwell architecture.\n\rPaper\r\r\rPaper\r\r"
+},
+{
+	"uri": "https://onovytskyi.github.io/optimization/nvidia/",
+	"title": "NVIDIA",
+	"tags": [],
+	"description": "",
+	"content": " The Peak-Performance Analysis Method for Optimizing Any GPU Workload Author: Louis Bavoil\nShader optimization method using NVIDIA NSight Graphics tool.\n\rArticle\r\r\rArticle\r\r"
 },
 {
 	"uri": "https://onovytskyi.github.io/hardware/",
