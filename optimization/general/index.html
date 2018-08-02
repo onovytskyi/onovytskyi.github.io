@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-    <title>Optimization :: Project: Renderman</title>
+    <title>General :: Project: Renderman</title>
     
     
     <link href="/css/nucleus.css?1533223004" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/optimization/">
+  <body class="" data-url="/optimization/general/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -351,7 +351,7 @@ PROJECT: RENDERMAN
     
     <li data-nav-id="/optimization/" title="Optimization" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/optimization/">
@@ -379,8 +379,8 @@ PROJECT: RENDERMAN
   
     
     <li data-nav-id="/optimization/general/" title="General" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/optimization/general/">
@@ -563,6 +563,8 @@ PROJECT: RENDERMAN
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
                   <span class="links">
                     
           
@@ -571,7 +573,13 @@ PROJECT: RENDERMAN
             
           
           
-            <a href='/'>Main</a> > Optimization
+            
+            
+          
+          
+            <a href='/'>Main</a> > <a href='/optimization/'>Optimization</a> > General
+          
+         
           
          
           
@@ -579,14 +587,31 @@ PROJECT: RENDERMAN
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#gpu-driven-rendering-in-vulkan-and-opengl">GPU-Driven Rendering in Vulkan and OpenGL</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
 
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>General</h1>
           
 
         
@@ -594,21 +619,58 @@ PROJECT: RENDERMAN
 
 
 
-<h3 id="section-7">Section 7</h3>
+<h3 id="gpu-driven-rendering-in-vulkan-and-opengl">GPU-Driven Rendering in Vulkan and OpenGL</h3>
 
-<h1 id="optimization">Optimization</h1>
+<p><strong>Authors: Pierre Boudier, Christoph Kubisch</strong></p>
 
-<p>Tips and tricks to optimize your rendering code.</p>
+<p>NVIDIA technology conference presentation.
+First part is about GPU pipeline overview may be biased towards NVIDIA specific implementation.
+Second part is about low-level optimizations is more general and may be usefull for all vendors.</p>
 
-<p>Tutorials and guides on different software to find performance issues.</p>
+<p><a  href="http://on-demand.gputechconf.com/gtc/2016/video/S6138.html" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-video"></i>
+    
+  
+  Video
+  
+</a>
+
+<a  href="http://on-demand.gputechconf.com/gtc/2016/presentation/s6138-christoph-kubisch-pierre-boudier-gpu-driven-rendering.pdf" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-link"></i>
+    
+  
+  Slides
+  
+</a>
+
+<a  href="https://web.archive.org/web/http://on-demand.gputechconf.com/gtc/2016/presentation/s6138-christoph-kubisch-pierre-boudier-gpu-driven-rendering.pdf" target="_blank"  class="btn btn-default">
+  
+  
+  
+    
+  <i class="fa fa-archive"></i>
+    
+  
+  Slides
+  
+</a>
+</p>
+
+<hr />
 
 
 <footer class=" footline" >
 	
 </footer>
 
-        
-            </div> 
         
         </div> 
         
@@ -823,6 +885,23 @@ PROJECT: RENDERMAN
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                         
                         
                     
@@ -853,22 +932,6 @@ PROJECT: RENDERMAN
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -913,10 +976,10 @@ PROJECT: RENDERMAN
 
 
         
-            <a class="nav nav-prev" href="/architecture/" title="Architecture"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/optimization/" title="Optimization"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/optimization/general/" title="General" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/optimization/d3d12/" title="D3D12" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

@@ -7,6 +7,13 @@
 	"content": " Life of a triangle - NVIDIA\u0026rsquo;s logical pipeline Author: Christoph Kubisch\nEven though this article is titled with NVIDIA it can be easily put into general category because it touches very little vendor-specific things and give an overwiev about modern GPU pipeline.\n\rArticle\r\r\rArticle\r\r"
 },
 {
+	"uri": "https://onovytskyi.github.io/optimization/general/",
+	"title": "General",
+	"tags": [],
+	"description": "",
+	"content": " GPU-Driven Rendering in Vulkan and OpenGL Authors: Pierre Boudier, Christoph Kubisch\nNVIDIA technology conference presentation. First part is about GPU pipeline overview may be biased towards NVIDIA specific implementation. Second part is about low-level optimizations is more general and may be usefull for all vendors.\n\rVideo\r\r\rSlides\r\r\rSlides\r\r"
+},
+{
 	"uri": "https://onovytskyi.github.io/hardware/amd/",
 	"title": "AMD",
 	"tags": [],
